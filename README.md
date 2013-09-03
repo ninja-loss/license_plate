@@ -30,7 +30,7 @@ Now you can use #license_plate:
 
     person = Person.new
 
-    person.license_plate.class.name # => DriversLicense::License
+    person.license_plate.class.name # => LicensePlate::Plate
 
     person.license_plate_state      # => 'TX'
     person.license_plate.state      # => 'TX'
